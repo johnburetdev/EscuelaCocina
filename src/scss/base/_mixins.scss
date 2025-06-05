@@ -50,3 +50,9 @@
     gap: $espaciado;
     grid-template-columns: repeat($columnas, 1fr);
 }
+@mixin bgImage($url){
+     background-image: url( $url );
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+}
